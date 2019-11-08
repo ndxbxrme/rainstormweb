@@ -1,5 +1,5 @@
 FROM alpine:latest
-RUN apk add --update nodejs npm git build-base gcc wget python
+RUN apk add --update nodejs npm git
 
 WORKDIR /
 COPY package.json bower.json Gruntfile.coffee env.sh /

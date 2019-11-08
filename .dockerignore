@@ -7,6 +7,5 @@ backup/
 .tmp/
 server/
 env.bat
-env.sh
 key.pem
 cert.pem
