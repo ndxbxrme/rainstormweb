@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web: 
+    image: rainstormweb:latest
+    ports:
+      - "80:4444"
+    networks:
+      - backend_net
+    volumes:
+      - /data:/data
+networks:
+  backend_net:

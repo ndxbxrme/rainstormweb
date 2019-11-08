@@ -1,0 +1,74 @@
+{
+  "generator-ndx": {
+    "filters": {
+      "settings": {
+        "appType": "web",
+        "encryptionKey": "16e4b81823b00f0b42c6642a",
+        "dbType": "Ndxdb",
+        "userTable": "users",
+        "dbTables": "",
+        "emails": "None",
+        "rest": true,
+        "cors": true,
+        "localServer": false,
+        "anonymousUser": true,
+        "profiler": false,
+        "loginMethods": [
+          "Local"
+        ],
+        "userSignUp": false,
+        "directives": [
+          "Menu",
+          "Header",
+          "Footer"
+        ],
+        "extras": [
+          "Invites",
+          "Forgot password",
+          "Form extras",
+          "Message service",
+          "Pagination",
+          "Sorting",
+          "File upload",
+          "Server permissions",
+          "Server decorator",
+          "Server transforms",
+          "Server templates"
+        ],
+        "makeRoutesForEndpoints": true,
+        "undefined": true,
+        "description": "ndx-framework web app",
+        "hasSocial": false,
+        "endpoints": [
+          "users"
+        ],
+        "Local": true,
+        "Menu": true,
+        "Header": true,
+        "Footer": true,
+        "Invites": true,
+        "ForgotPassword": true,
+        "FormExtras": true,
+        "MessageService": true,
+        "Pagination": true,
+        "Sorting": true,
+        "FileUpload": true,
+        "ServerPermissions": true,
+        "ServerDecorator": true,
+        "ServerTransforms": true,
+        "ServerTemplates": true,
+        "myEndpoints": [
+          {
+            "name": "users",
+            "plural": "users",
+            "single": "user"
+          }
+        ],
+        "appName": "rainstormweb",
+        "gitname": "ndxbxrme",
+        "gitemail": "lewis_the_cat@hotmail.com"
+      }
+    },
+    "appname": "DEV"
+  }
+}

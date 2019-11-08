@@ -1,0 +1,15 @@
+doctype strict
+html
+  head
+    base(href='/')
+    meta(charset='utf-8')
+    title rainstormweb
+    meta(name='description', content='ndx-framework web app')
+    meta(name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1")
+  body(ng-app='rainstormweb')
+    header
+    menu.mobile-menu(ng-show='mobileMenuOut')
+    login
+    .body
+      .view(ui-view='')
+    footer
