@@ -5,6 +5,5 @@ data/
 logs/
 server/
 !src/server
-package-lock.json
 env.bat
 env.sh
