@@ -11,7 +11,7 @@ RUN bower install --allow-root
 COPY src/ /src
 RUN grunt build
 RUN rm -rf bower_components/
-COPY env.sh .
+COPY /env.sh .
 
 ENV NODE_ENV=production
 ENV PORT=4444
