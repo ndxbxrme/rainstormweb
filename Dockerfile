@@ -2,7 +2,7 @@ FROM alpine:latest
 RUN apk add --update nodejs npm git build-base gcc wget python
 
 WORKDIR /
-COPY package.json bower.json Gruntfile.coffee /
+COPY package.json bower.json Gruntfile.coffee env.sh /
 RUN mkdir /backup && mkdir /logs && mkdir /uploads
 VOLUME data
 RUN npm install -g modclean
@@ -11,7 +11,6 @@ RUN bower install --allow-root
 COPY src/ /src
 RUN grunt build
 RUN rm -rf bower_components/
-COPY /env.sh .
 
 ENV NODE_ENV=production
 ENV PORT=4444
