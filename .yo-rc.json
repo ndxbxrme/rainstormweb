@@ -3,7 +3,6 @@
     "filters": {
       "settings": {
         "appType": "web",
-        "encryptionKey": "16e4b81823b00f0b42c6642a",
         "dbType": "Ndxdb",
         "userTable": "users",
         "dbTables": "",
