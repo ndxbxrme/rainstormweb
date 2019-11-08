@@ -15,6 +15,6 @@ RUN rm -rf bower_components/
 ENV NODE_ENV=production
 ENV PORT=4444
 
-COPY env.sh /
+COPY env.sh
 EXPOSE 4444
 CMD . env.sh && node --expose-gc server/app.js
