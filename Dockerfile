@@ -9,6 +9,7 @@ RUN npm install -g modclean
 RUN npm install && npm install -g bower grunt-cli && modclean -r -n default:safe,default:caution && npm uninstall -g modclean
 RUN bower install --allow-root
 COPY src/ /src
+COPY public/ /public
 RUN grunt build
 RUN rm -rf bower_components/
 

@@ -7,9 +7,11 @@ html
     meta(name='description', content='ndx-framework web app')
     meta(name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1")
   body(ng-app='rainstormweb')
-    header
-    menu.mobile-menu(ng-show='mobileMenuOut')
     login
     .body
       .view(ui-view='')
-    footer
+    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/three.js/95/three.min.js')
+    script(type='text/javascript', src='https://rawgit.com/mrdoob/three.js/master/examples/js/postprocessing/EffectComposer.js')
+    script(type='text/javascript', src='https://rawgit.com/mrdoob/three.js/master/examples/js/postprocessing/RenderPass.js')
+    script(type='text/javascript', src='https://rawgit.com/mrdoob/three.js/master/examples/js/postprocessing/ShaderPass.js')
+    script(type='text/javascript', src='https://rawgit.com/mrdoob/three.js/master/examples/js/shaders/CopyShader.js')
