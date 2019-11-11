@@ -115,8 +115,8 @@
         vec2 UV = gl_FragCoord.xy/iResolution.xy;
         float T = iGlobalTime;
         float t = T * .2;
-        float rainAmount = sin(T*.05)*.3+.7;
-        float maxBlur = mix(3., 6., rainAmount);
+        float rainAmount = 1.;//sin(T*.05)*.3+.7;
+        float maxBlur = 6.;//mix(3., 6., rainAmount);
         float minBlur = 2.;
         float zoom = 1. - -cos(T*.2)*.05;
         uv *= .7+zoom*.3;

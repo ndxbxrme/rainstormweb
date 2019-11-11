@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap')
 @import 'variables'
 html, body
-  font-family 'Arial', sans-serif
+  font-family 'Poppins', sans-serif
   color #333
   margin 0
   .container
