@@ -37,7 +37,7 @@ angular.module 'rainstormweb'
   bgShader.uniforms.iResolution.value = new THREE.Vector3 window.innerWidth, window.innerHeight, 1
   bgShader.uniforms.iChannel0 =
     type: 't'
-    value: new THREE.TextureLoader().load('public/road.jpg')
+    value: new THREE.TextureLoader().load('public/park.png')
   bgShader.renderToScreen = true
   composer.addPass bgShader
   clock.start()
